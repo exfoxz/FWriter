@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Fwriter",
+    name="FWriter",
     version="0.0.1",
     author="Sam Nguyen",
     author_email="chanhnp@gmail.com",
