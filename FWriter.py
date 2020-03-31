@@ -1,13 +1,12 @@
 import logging
 import os
-import tqdm
 import time
 import sys
 import argparse
 
 class FWriter:
     """Open file and log to file"""
-    def __init__(self, is_debug, fn=""):
+    def __init__(self, is_debug, fn):
         self.is_debug = is_debug
         if(not is_debug):
             self.f = open(fn, 'a+', encoding='utf8')
