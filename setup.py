@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/exfoxz/FWriter",
-    download_url = 'https://github.com/exfoxz/FWriter/archive/v_01.tar.gz',
+    download_url = 'https://github.com/exfoxz/FWriter/archive/v0.0.1.tar.gz',
     keywords = ['logging', 'neural networks'],
     install_requires= [],
     packages=setuptools.find_packages(),
